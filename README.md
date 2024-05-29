@@ -1,4 +1,4 @@
-# Destarinc_Assessment
+# Destarinc_Assessment for FastApi Book Review System API& Employee Management System
 
 # Book Review System API
 
@@ -41,6 +41,7 @@ This project is a RESTful API for a hypothetical book review system built using 
 3. **Install dependencies**:
     ```sh
     pip install -r requirements.txt
+    cd Book_Review_System_API
     ```
 
 4. **Run the database migrations**:
@@ -103,3 +104,60 @@ This project is a RESTful API for a hypothetical book review system built using 
 
 ### Question 3: Code walkthrough
 **Answer**: The provided code creates a FastAPI application with endpoints for managing books and reviews. It uses Pydantic models for data validation and SQLAlchemy for database integration with SQLite. The code includes error handling, dependency injection, and a simulated background task for sending confirmation emails. Tests are written using FastAPI's test client to ensure endpoint functionality.
+
+
+# Employee Management System
+
+1. **come in file dir Employee_Management_System**:
+    ```sh
+    cd Employee_Management_System
+    ```
+
+2. **run code**:
+    ```sh
+    python3 employee_management_system.py
+    ```
+
+## Overview
+The Employee Management System is a command-line application developed in Python for managing employee and department information within a company.
+
+## Features
+- **Employee Management**: Add, remove, and display employee details.
+- **Department Management**: Add, remove, and display departments along with their employees.
+- **Data Persistence**: Save company data to a JSON file and load it back on startup.
+
+## Usage
+1. **Running the Application**: Execute the Python script `employee_management.py`.
+2. **Menu Options**: Choose options from the menu to perform various tasks:
+   - Add Employee
+   - Remove Employee
+   - Display Department
+   - Add Department
+   - Remove Department
+   - Display All Departments
+   - Save Company Data to File
+   - Load Company Data from File
+   - Exit
+
+## File Handling
+- The application uses JSON files for data storage and retrieval.
+- Company data is saved to a JSON file named `company_data.json`.
+- The file is located in the same directory as the Python script.
+
+## Requirements
+- Python 3.x
+
+## Instructions
+1. Ensure you have Python installed on your system.
+2. Download the `employee_management.py` file.
+3. Open a terminal or command prompt.
+4. Navigate to the directory containing `employee_management.py`.
+5. Run the script by typing `python employee_management.py` and pressing Enter.
+
+## Notes
+- Ensure to handle errors and edge cases gracefully.
+- Properly document your code and include comments for clarity.
+- You may extend the application with additional features or functionality as needed.
+
+## Credits
+This application was developed by SAJAN KUMAR.
