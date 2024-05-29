@@ -28,8 +28,8 @@ This project is a RESTful API for a hypothetical book review system built using 
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/your-username/book-review-system-api.git
-    cd book-review-system-api
+    git clone https://github.com/ksajansonu/Destarinc_Assessment.git
+    cd Destarinc_Assessment
     ```
 
 2. **Create a virtual environment**:
